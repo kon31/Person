@@ -6,4 +6,14 @@ package jp.co.diworks.action;
 		public String phoneNumber1 = null;
 		public int  phoneNumber2 = 0;
 		public String address = null;
+		
+		public void talk() {
+			System.out.println(this.name + "が話す");
+		}
+		public void walk() {
+			System.out.println(this.name + "が歩く");
+		}
+		public void run() {
+			System.out.println(this.name + "が走る");
+		}
 	}
